@@ -1,0 +1,32 @@
+"Refract"
+{
+	"$model" "0"
+	
+	"$basetexture" "dirtylens3"
+	
+	"$translucent" 1
+	"$refractamount" ".01"
+
+	"$levelr" "0.5" 
+	"$levelg" "0.5" 
+	"$levelb" "0.5" 
+	"$ignorez" "1"
+	
+	"$additive" "1"
+	
+	"$dudvmap" "dirtylens3"
+	"$normalmap" "dirtylens3"
+	"$refracttinttexture" "dirtylens3"
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$refracttinttexture"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+	}
+
+}
