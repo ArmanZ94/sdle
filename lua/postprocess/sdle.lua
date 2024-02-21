@@ -15,6 +15,7 @@ if CLIENT then
 	local w, h = ScrW(), ScrH()
 
 	local function DrawScene()
+		if not dl_lenson:GetBool() then return end
 		local mode = dl_mode:GetFloat()
 		if mode == 2 then 
 			render.SetViewPort(0, 0, w, h)
