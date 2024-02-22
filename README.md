@@ -3,7 +3,7 @@ blinding
 
 ISSUE:
 
-- "Mode 2" Lensflare mode, have issue with "Life Mod" Bloom modification.
+- "Mode 2" Lensflare mode, have issue with any bloom modification.
 ![image](https://github.com/ArmanZ94/sdle/assets/103443173/f8ff5e85-a22f-4805-87a1-f62743dc97a6)
 the effect becoming weird blob
 
