@@ -2,7 +2,7 @@
 {
 	"$model" "0"
 	
-	"$basetexture" "dirtylens3"
+	"$basetexture" "dlenstexture/dlensdefault"
 	
 	"$translucent" 1
 	"$refractamount" ".01"
@@ -14,9 +14,9 @@
 	
 	"$additive" "1"
 	
-	"$dudvmap" "dirtylens3"
-	"$normalmap" "dirtylens3"
-	"$refracttinttexture" "dirtylens3"
+	"$dudvmap" "dlenstexture/dlensdefault"
+	"$normalmap" "dlenstexture/dlensdefault"
+	"$refracttinttexture" "dlenstexture/dlensdefault"
 	
 	"Proxies"
 	{
