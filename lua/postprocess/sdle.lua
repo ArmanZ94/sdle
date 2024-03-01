@@ -95,11 +95,13 @@ if CLIENT then
 				Min = "0",
 				Max = "1"
 			})
-			
+
+			CPanel:ControlHelp(" ")
 			CPanel:AddControl("CheckBox", { 
 				Label = "Enable Sun Dirt Lens", 
 				Command = "pp_dlens_sun" 
 			})
+			CPanel:ControlHelp("When looking at the sun, Multiply will increase.")
 			
 			CPanel:AddControl("Slider", {
 				Label = "Sun Multiply",
